@@ -8,16 +8,15 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {  
-  res.send('Главная!');
+  res.send('Home!');
 });
 
 app.use('/api', router)
 
 const port = process.env.PORT || 3000;
 
-// Запуск сервера
 app.listen(port, () => {
-  console.log(`Сервер запущен на http://localhost:${port}`);
+  console.log(`Server is running at http://localhost:${port}`);
 });
 
 export default app;
