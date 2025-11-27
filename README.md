@@ -1,15 +1,18 @@
 # qupp-admin
 
-Routes:
-    /api/admin/login
-    /api/admin/logout
+> This server is for admin of [qupp](https://qupp-gray.vercel.app/home)
 
-    /api/quotes/all
-    /api/quotes/:category
-    /api/quotes/new
-    /api/quotes/:id
-    /api/quotes/daily-quote
-    /api/quotes/quote/:id
-    /api/quotes/category/:id
+## Routes:
+### base-url: /api
+    /admin/login
+    /admin/logout
 
-    /api/videos/daily-quote-video
+    /quotes/all
+    /quotes/:category
+    /quotes/new
+    /quotes/:id
+    /quotes/daily-quote
+    /quotes/quote/:id
+    /quotes/category/:id
+
+    /videos/daily-quote-video
