@@ -16,3 +16,5 @@
     /quotes/category/:id
 
     /videos/daily-quote-video
+
+<ins>Allowed only to read!!!</ins>
